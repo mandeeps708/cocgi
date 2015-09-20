@@ -1,0 +1,560 @@
+# name: Number_of_storeys
+# type: scalar
+2
+
+
+# name: Importance_factor
+# type: scalar
+3
+
+
+# name: Soil_type
+# type: scalar
+1
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Zone_factor
+# type: scalar
+5
+
+
+# name: Gravity_acceleration
+# type: scalar
+6
+
+
+# name: Modes_considered
+# type: scalar
+7
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Response_reduction_factor
+# type: scalar
+7
+
+
+# name: Zone_factor
+# type: scalar
+3
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Number_of_storeys
+# type: scalar
+6
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Modes_considered
+# type: scalar
+2
+
+
+# name: Importance_factor
+# type: scalar
+6
+
+
+# name: Importance_factor
+# type: scalar
+8
+
+
+# name: Modes_considered
+# type: scalar
+9
+
+
+# name: Zone_factor
+# type: scalar
+2
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Number_of_storeys
+# type: scalar
+8
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Zone_factor
+# type: scalar
+2
+
+
+# name: Importance_factor
+# type: scalar
+8
+
+
+# name: Modes_considered
+# type: scalar
+9
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Number_of_storeys
+# type: scalar
+8
+
+
+# name: Modes_considered
+# type: scalar
+9
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Zone_factor
+# type: scalar
+2
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Number_of_storeys
+# type: scalar
+8
+
+
+# name: Importance_factor
+# type: scalar
+8
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Importance_factor
+# type: scalar
+8
+
+
+# name: Modes_considered
+# type: scalar
+9
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Zone_factor
+# type: scalar
+2
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Number_of_storeys
+# type: scalar
+8
+
+
+# name: Number_of_storeys
+# type: scalar
+8
+
+
+# name: Importance_factor
+# type: scalar
+8
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Modes_considered
+# type: scalar
+9
+
+
+# name: Zone_factor
+# type: scalar
+2
+
+
+# name: Soil_type
+# type: scalar
+5
+
+
+# name: Number_of_storeys
+# type: scalar
+8
+
+
+# name: Soil_type
+# type: scalar
+77
+
+
+# name: Importance_factor
+# type: scalar
+8
+
+
+# name: Response_reduction_factor
+# type: scalar
+4
+
+
+# name: Gravity_acceleration
+# type: scalar
+1
+
+
+# name: Modes_considered
+# type: scalar
+9
+
+
+# name: Zone_factor
+# type: scalar
+2
+
+
