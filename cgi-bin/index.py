@@ -33,7 +33,7 @@ print('<h3 class="header">Mass Matrix</h3><br>')
 for row in range(1, 5):
     print('<div class="row">')
     for col in range(1, 5):
-        print('<input class="input-lg col-md-3 col-sm-3 col-xs-3 space" type="text" name="Zone_factor" placeholder="m',row,col,'">')
+        print('<input class="input-lg col-md-3 col-sm-3 col-xs-3 space" type="text" name="mass',row,col,'" placeholder="m',row,col,'">')
     print('</div>')
 
 """
@@ -43,7 +43,7 @@ print('<h3 class="header">Height storey</h3>')
 for row in range(1, 5):
     print('<div class="row">')
     for col in range(1, 2):
-        print('<input class="input-lg col-md-12 col-sm-12 space" type="text" name="Zone_factor" placeholder="m',row,col,'">')
+        print('<input class="input-lg col-md-12 col-sm-12 space" type="text" name="height',row,col,'" placeholder="h',row,col,'">')
     print('</div>')
 
 """
@@ -53,7 +53,7 @@ print('<h3 class="header">Stiffness storey</h3>')
 for row in range(1, 5):
     print('<div class="row">')
     for col in range(1, 2):
-        print('<input class="input-lg col-md-12 col-sm-12 space" type="text" name="Zone_factor"  placeholder="m',row,col,'">')
+        print('<input class="input-lg col-md-12 col-sm-12 space" type="text" name="stiff',row,col,'" placeholder="s',row,col,'">')
     print('</div>')
 
 
