@@ -23,39 +23,6 @@ print('<form class="col-lg-12" name="search" action="try.py" method="POST"> \   
                 <input class=" form-control input-lg space" type="text" name="Modes_considered" placeholder="Modes_considered"> \
                 <br>')
 
-"""
-Mass Matrix
-"""
-#If mass_matrix depends on something from above form
-#mass_matrix = form.getvalue('Number_of_storeys')
-#print(mass_matrix)
-print('<h3 class="header">Mass Matrix</h3><br>')
-for row in range(1, 5):
-    print('<div class="row">')
-    for col in range(1, 5):
-        print('<input class="input-lg col-md-3 col-sm-3 col-xs-3 space" type="text" name="mass',row,col,'" placeholder="m',row,col,'">')
-    print('</div>')
-
-"""
-Height Storey
-"""
-print('<h3 class="header">Height storey</h3>')
-for row in range(1, 5):
-    print('<div class="row">')
-    for col in range(1, 2):
-        print('<input class="input-lg col-md-12 col-sm-12 space" type="text" name="height',row,col,'" placeholder="h',row,col,'">')
-    print('</div>')
-
-"""
-Stiffness_storey
-"""
-print('<h3 class="header">Stiffness storey</h3>')
-for row in range(1, 5):
-    print('<div class="row">')
-    for col in range(1, 2):
-        print('<input class="input-lg col-md-12 col-sm-12 space" type="text" name="stiff',row,col,'" placeholder="s',row,col,'">')
-    print('</div>')
-
 
 """
     <input class="input-lg col-md-3 space" type="text" name="Zone_factor" placeholder="matrix"><input class="input-lg col-md-3 space" type="text" name="Zone_factor" placeholder="matrix"><input class="input-lg col-md-3 space" type="text" name="Zone_factor" placeholder="matrix"> \
