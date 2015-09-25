@@ -10,7 +10,7 @@ import cgi,cgitb,os
 cgitb.enable()
 form = cgi.FieldStorage()
 print('<h1 class="header">CivilOctave</h1>')
-print('<form class="col-lg-12" name="search" action="try.py" method="POST"> \           <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">\             <input class="form-control input-lg space" type="text" name="Soil_type" placeholder="Soil_type">    \
+print('<form class="col-lg-12" name="search" action="step2.py" method="POST"> \           <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">\             <input class="form-control input-lg space" type="text" name="Soil_type" placeholder="Soil_type">    \
                 <br>    \
                 <input class="form-control input-lg space" type="text" name="Number_of_storeys" placeholder="Number_of_storeys"><br><input class=" form-control input-lg space" type="text" name="Importance_factor" placeholder="Importance_factor">   \
                 <br>    \

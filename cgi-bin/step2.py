@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 print("Content-type: text/html")
-print("")
+print("\n\n")
 print("<html><head><title>hello</title>")
 print('<link rel="stylesheet" type="text/css" href="../html/bootstrap.min.css">')
 print('<style>body{background-color:#111;}.space{margin-top:10px;}.header{text-align:center;color:#DADADA;}</style>')
@@ -17,7 +17,6 @@ for var in list.keys():
     #print(values[var])
 #print(values,'\n')
 #b = sorted(values)
-
 #Soil_type =  form.getvalue('Soil_type')
 #Number_of_storeys=  form.getvalue('Number_of_storeys')
 #Importance_factor=  form.getvalue('Importance_factor')
@@ -25,11 +24,15 @@ for var in list.keys():
 #Zone_factor=  form.getvalue('Zone_factor')
 #Gravity_acceleration=  form.getvalue('Gravity_acceleration')
 #Modes_considered=  form.getvalue('Modes_considered')
-
 dependent = form.getvalue('Number_of_storeys')
 storeys = int(dependent)
+loop = open('value.py', 'w')
+loop.write('Number_of_storeys=')
+loop.write(dependent)
+loop.write("\n")
 
-print('<form class="col-lg-12" name="search" action="matrix.py" method="POST"> \
+
+print('<form class="col-lg-12" name="search" action="final.py" method="POST"> \
 	<div class="input-group" style="width:340px;text-align:center;margin:0 auto;">')
 """
 Mass Matrix

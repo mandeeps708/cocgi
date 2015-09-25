@@ -1,25 +1,35 @@
-#!/usr/bin/python3
-
+#!/usr/bin/env python3
+from value import Number_of_storeys
 print("Content-type: text/html")
 print("")
 print("<html><head><title>hello</title>")
 print('<link rel="stylesheet" type="text/css" href="../html/bootstrap.min.css">')
 print('<style>body{background-color:#111;}.space{margin-top:10px;}.header{text-align:center;color:#DADADA;}</style>')
 print("</head><body><br><br>")
-
 import cgi,cgitb,os
 cgitb.enable()
 form = cgi.FieldStorage()
+list = []
+# print('<h1 style="color:white">',a,'</h1>')
+#for item in range(0,5):
+#    list[item]=item
 
-# list = {'Soil_type':'','Number_of_storeys':'','Importance_factor':'','Response_reduction_factor':'','Zone_factor':'','Gravity_acceleration':'','Modes_considered':''}
-# values = {}
-# for var in list.keys():
-#     values[var]=form.getvalue(var)
+#    values = {}
+#for var in list.keys():
+#    values[var]=form.getvalue(var)
+#    print(values[var])
+#print(values)
 
-# print(storeys)
+# print(Number_of_storeys)
 
-
-
+"""
+Getting the list(or size) of mass matrix
+"""
+for i in range(0,Number_of_storeys):
+	for j in range(0,1):
+		temp = "mass "+str(i)+" "+str(j)+" "
+		list.append(temp)
+print(list)
 
 # file = open('data.in', 'a')
 
@@ -38,4 +48,6 @@ form = cgi.FieldStorage()
 # output = open('output', 'r')
 print("<br><h4>Output</h4><br>")
 # print(output.read())
+
+
 print("<br></body></html>")
