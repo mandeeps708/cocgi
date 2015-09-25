@@ -9,12 +9,23 @@ print("</head><body><br><br>")
 import cgi,cgitb,os
 cgitb.enable()
 form = cgi.FieldStorage()
-list = []
+
+"""
+lists to contain keys(names) of matrices
+"""
+mass = []
+height = []
+stiff = []
 # print('<h1 style="color:white">',a,'</h1>')
 #for item in range(0,5):
 #    list[item]=item
 
-#    values = {}
+"""
+dictionaries to contain key:value pair according to lists above
+"""
+mass_values = {}
+height_values = {}
+stiff_values = {}
 #for var in list.keys():
 #    values[var]=form.getvalue(var)
 #    print(values[var])
@@ -28,8 +39,68 @@ Getting the list(or size) of mass matrix
 for i in range(0,Number_of_storeys):
 	for j in range(0,1):
 		temp = "mass "+str(i)+" "+str(j)+" "
-		list.append(temp)
-print(list)
+		mass.append(temp)
+
+print(mass)
+
+for var in mass:
+	# print(var)
+	mass_values[var]=form.getvalue(var)
+	# print(mass_values.values())
+	print("<br><br>")
+# print(values)
+print('<br><h3 class="header">The Mass matrix is:</h3><br>')
+for i in range(0,Number_of_storeys):
+	for j in range(0,1):
+		mtemp = "mass "+str(i)+" "+str(j)+" "
+		print('<h4 class="header">',mass_values.get(mtemp,'11'),'</h4><br>')
+
+
+
+"""
+Getting the height matrix list
+"""
+
+for i in range(0,Number_of_storeys):
+	for j in range(0,1):
+		htemp = "height "+str(i)+" "+str(j)+" "
+		height.append(htemp)
+
+for var in height:
+	# print(var)
+	height_values[var]=form.getvalue(var)
+	# print(height_values.values())
+	print("<br>")
+print(height_values)
+print('<br><h3 class="header">The height matrix is:</h3><br>')
+for i in range(0,Number_of_storeys):
+	for j in range(0,1):
+		mtemp = "height "+str(i)+" "+str(j)+" "
+		print('<h4 class="header">',height_values.get(mtemp,'11'),'</h4><br>')
+
+
+
+
+"""
+Getting the stiffness matrix list
+"""
+
+for i in range(0,Number_of_storeys):
+	for j in range(0,1):
+		stemp = "stiff "+str(i)+" "+str(j)+" "
+		stiff.append(stemp)
+
+for var in stiff:
+	# print(var)
+	stiff_values[var]=form.getvalue(var)
+	# print(height_values.values())
+	print("<br>")
+print(stiff_values)
+print('<br><h3 class="header">The Stiffness matrix is:</h3><br>')
+for i in range(0,Number_of_storeys):
+	for j in range(0,1):
+		stemp = "stiff "+str(i)+" "+str(j)+" "
+		print('<h4 class="header">',stiff_values.get(stemp,'11'),'</h4><br>')
 
 # file = open('data.in', 'a')
 
